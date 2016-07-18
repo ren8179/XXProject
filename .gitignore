@@ -10,3 +10,11 @@
 /QrF.XXProject.Web/obj/Debug
 /QrF.XXProject.WebApi/obj/Debug
 /Tools/QrF.XXProject.Migrator/obj/Debug
+/QrF.XXProject.Application/bin/Debug
+/QrF.XXProject.Core/bin/Debug
+/QrF.XXProject.EntityFramework/bin/Debug
+/QrF.XXProject.WebApi/bin/Debug
+/Tools/QrF.XXProject.Migrator/bin/Debug
+/Tests/QrF.XXProject.Tests/obj/Debug
+/Tests/QrF.XXProject.Tests/bin/Debug
+/QrF.XXProject.Web/bin
