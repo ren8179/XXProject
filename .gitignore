@@ -3,3 +3,10 @@
 ################################################################################
 
 /packages
+/.vs/config
+/QrF.XXProject.Application/obj/Debug
+/QrF.XXProject.Core/obj/Debug
+/QrF.XXProject.EntityFramework/obj/Debug
+/QrF.XXProject.Web/obj/Debug
+/QrF.XXProject.WebApi/obj/Debug
+/Tools/QrF.XXProject.Migrator/obj/Debug
