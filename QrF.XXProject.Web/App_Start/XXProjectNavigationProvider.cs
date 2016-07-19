@@ -41,6 +41,13 @@ namespace QrF.XXProject.Web
                         )
                 ).AddItem(
                     new MenuItemDefinition(
+                        "Events", 
+                        L("Events"), 
+                        url: "Events", 
+                        icon: "fa fa-calendar-check-o", 
+                        requiredPermissionName: PermissionNames.Pages_Users)
+                ).AddItem(
+                    new MenuItemDefinition(
                         "About",
                         L("About"),
                         url: "About",

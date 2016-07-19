@@ -98,6 +98,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Events\Dto\CreateEventInput.cs" />
+    <Compile Include="Events\IEventAppService.cs" />
     <Compile Include="XXProjectApplicationModule.cs" />
     <Compile Include="XXProjectAppServiceBase.cs" />
     <Compile Include="MultiTenancy\Dto\CreateTenantInput.cs" />

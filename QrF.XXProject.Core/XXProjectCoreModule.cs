@@ -8,6 +8,7 @@ using QrF.XXProject.Authorization;
 using QrF.XXProject.Authorization.Roles;
 using QrF.XXProject.MultiTenancy;
 using QrF.XXProject.Users;
+using QrF.XXProject.Configuration;
 
 namespace QrF.XXProject
 {
@@ -36,6 +37,8 @@ namespace QrF.XXProject
                         )
                     )
                 );
+
+            Configuration.Settings.Providers.Add<XXProjectSettingProvider>();
 
             AppRoleConfig.Configure(Configuration.Modules.Zero().RoleManagement);
 
