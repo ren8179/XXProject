@@ -27,6 +27,15 @@
     <text name="Surname" value="Surname" />
     <text name="EmailAddress" value="Email address" />
 
+    <text name="Events" value="Events" />
+    <text name="NewEvent" value="New event" />
+    <text name="Title" value="Title" />
+    <text name="Description" value="Description" />
+    <text name="IsCancelled" value="Is cancelled" />
+    
+    <text name="ShowCanceledEvents" value="Show canceled events" />
+    <text name="ThisEventIsCanceled" value="This event is canceled" />
+    
     <text name="Tenants" value="Tenants" />
     <text name="SavedSuccessfully" value="Saved successfully" />
     <text name="CreateNewTenant" value="Create new tenant" />

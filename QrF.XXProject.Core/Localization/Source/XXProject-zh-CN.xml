@@ -20,6 +20,28 @@
     <text name="LogIn" value="登录" />
 
     <text name="LoginFailed" value="登录失败!" />
-    
+
+    <text name="Users" value="用户" />
+    <text name="UserName" value="用户名称" />
+    <text name="Name" value="名称" />
+    <text name="Surname" value="姓" />
+    <text name="EmailAddress" value="邮箱地址" />
+    <text name="IsActive" value="是否激活" />
+    <text name="FullName" value="全称" />
+    <text name="CreateNewUser" value="新建用户" />
+    <text name="Yes" value="是" />
+    <text name="No" value="否" />
+
+    <text name="Events" value="活动" />
+    <text name="NewEvent" value="新增活动" />
+    <text name="Title" value="标题" />
+    <text name="Description" value="描述" />
+    <text name="IsCancelled" value="是否已失效" />
+
+    <text name="ShowCanceledEvents" value="显示已关闭活动" />
+    <text name="ThisEventIsCanceled" value="该活动已关闭" />
+
+    <text name="Save" value="保存" />
+    <text name="Cancel" value="取消" />
   </texts>
 </localizationDictionary>

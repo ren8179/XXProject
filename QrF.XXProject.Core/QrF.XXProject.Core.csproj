@@ -101,6 +101,7 @@
     <Compile Include="Configuration\XXProjectSettingProvider.cs" />
     <Compile Include="Configuration\XXProjectSettingNames.cs" />
     <Compile Include="Domain\Events\DomainEvents.cs" />
+    <Compile Include="Events\Notifications\EventUserEmailer.cs" />
     <Compile Include="XXProjectServiceBase.cs" />
     <Compile Include="Events\Event.cs" />
     <Compile Include="Events\EventCancelledEvent.cs" />

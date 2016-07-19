@@ -318,3 +318,442 @@ DEBUG 2016-07-19 18:01:18,021 [93   ] Abp.Logging.LogHelper                    -
 DEBUG 2016-07-19 18:01:18,022 [93   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
 DEBUG 2016-07-19 18:01:18,022 [93   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
 DEBUG 2016-07-19 18:01:18,023 [93   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:10:41,522 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:10:41,566 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:10:41,575 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,580 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,581 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,582 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,583 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:41,590 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:10:42,086 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:10:42,086 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:10:42,086 [1    ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:10:42,086 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:10:42,940 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:10:47,177 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:10:47,208 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:10:47,221 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:10:47,225 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:10:47,229 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:10:47,361 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:10:47,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:10:47,393 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:10:47,811 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:10:47,813 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:10:47,826 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:10:47,928 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:10:47,931 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:10:47,953 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:10:47,955 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:10:48,029 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:10:48,032 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:10:48,233 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:10:48,235 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:10:48,237 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:10:48,240 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:10:48,243 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:11:08,712 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"8b527752-4976-4639-972d-2f1972a8a1e9","IpAddress":"::1","TenantId":null,"UserId":null,"ConnectTime":"2016-07-19T22:11:08.6800181+08:00","Properties":{}}
+DEBUG 2016-07-19 22:11:08,888 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 8b527752-4976-4639-972d-2f1972a8a1e9
+WARN  2016-07-19 22:11:47,934 [5    ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+WARN  2016-07-19 22:11:48,758 [10   ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:11:50,285 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"916f8030-fc84-4fde-abd5-e2359a839550","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:11:50.2835568+08:00","Properties":{}}
+DEBUG 2016-07-19 22:11:50,354 [5    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 916f8030-fc84-4fde-abd5-e2359a839550
+DEBUG 2016-07-19 22:12:18,439 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 8b527752-4976-4639-972d-2f1972a8a1e9
+WARN  2016-07-19 22:12:19,800 [8    ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:19,908 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 916f8030-fc84-4fde-abd5-e2359a839550
+WARN  2016-07-19 22:12:20,393 [18   ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:21,869 [16   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"a1935d51-9731-45c0-b235-d0f19d4940da","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:12:21.8679826+08:00","Properties":{}}
+DEBUG 2016-07-19 22:12:21,926 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: a1935d51-9731-45c0-b235-d0f19d4940da
+WARN  2016-07-19 22:12:25,200 [21   ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:25,306 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: a1935d51-9731-45c0-b235-d0f19d4940da
+WARN  2016-07-19 22:12:25,750 [7    ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+WARN  2016-07-19 22:12:26,288 [6    ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:27,089 [13   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f04cf8bc-6e64-41d9-8931-07bfcab390ea","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:12:27.088653+08:00","Properties":{}}
+DEBUG 2016-07-19 22:12:27,143 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f04cf8bc-6e64-41d9-8931-07bfcab390ea
+WARN  2016-07-19 22:12:31,348 [12   ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:31,450 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f04cf8bc-6e64-41d9-8931-07bfcab390ea
+WARN  2016-07-19 22:12:31,695 [10   ] Abp.Logging.LogHelper                    - Can not find 'Events' in localization source 'XXProject'!
+DEBUG 2016-07-19 22:12:32,590 [20   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e87eaae1-90fd-4d25-a6e0-db02146610bc","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:12:32.5896449+08:00","Properties":{}}
+DEBUG 2016-07-19 22:12:32,730 [15   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e87eaae1-90fd-4d25-a6e0-db02146610bc
+DEBUG 2016-07-19 22:15:42,272 [5    ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:15:42,275 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:15:42,276 [5    ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:15:42,276 [5    ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:15:57,169 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:15:57,240 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:15:57,251 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,271 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,272 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,273 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,274 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:15:57,280 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:15:57,789 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:15:57,790 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:15:57,790 [1    ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:15:57,790 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:15:58,427 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:16:00,877 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:16:00,916 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:16:00,932 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:16:00,964 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:16:00,988 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:16:01,153 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:16:01,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:16:01,193 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:16:01,312 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:16:01,314 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:16:01,328 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:16:01,368 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:16:01,371 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:16:01,380 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:16:01,383 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:16:01,394 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:16:01,398 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:16:01,587 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:16:01,589 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:16:01,592 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:16:01,594 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:16:01,596 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:16:32,387 [17   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:16:32,389 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:16:32,390 [17   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:16:32,391 [17   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:16:34,807 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e87eaae1-90fd-4d25-a6e0-db02146610bc
+DEBUG 2016-07-19 22:16:37,385 [14   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"403d48dd-41f3-4d4e-8d66-e4e238734a17","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:16:37.3566917+08:00","Properties":{}}
+DEBUG 2016-07-19 22:16:37,541 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 403d48dd-41f3-4d4e-8d66-e4e238734a17
+DEBUG 2016-07-19 22:17:00,648 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 403d48dd-41f3-4d4e-8d66-e4e238734a17
+DEBUG 2016-07-19 22:17:02,610 [24   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"df53f09d-42f7-4028-8eb3-e51d3cc355dc","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:17:02.6092986+08:00","Properties":{}}
+DEBUG 2016-07-19 22:17:02,672 [26   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: df53f09d-42f7-4028-8eb3-e51d3cc355dc
+DEBUG 2016-07-19 22:18:29,947 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: df53f09d-42f7-4028-8eb3-e51d3cc355dc
+DEBUG 2016-07-19 22:18:32,941 [10   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"e36cd35b-958b-4b5b-918c-779c46555348","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:18:32.9409957+08:00","Properties":{}}
+DEBUG 2016-07-19 22:18:33,009 [34   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: e36cd35b-958b-4b5b-918c-779c46555348
+DEBUG 2016-07-19 22:18:34,433 [33   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:18:34,435 [33   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:18:34,436 [33   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:18:34,436 [33   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:18:47,218 [16   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:18:47,241 [16   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:18:47,250 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,254 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,254 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,254 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,254 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,255 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,255 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,256 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,256 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,257 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,257 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,257 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,257 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,258 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,258 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:47,263 [16   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:18:47,531 [16   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:18:47,532 [16   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:18:47,532 [16   ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:18:47,532 [16   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:18:48,489 [16   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:18:50,346 [16   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:18:50,356 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:18:50,358 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:18:50,361 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:18:50,363 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:18:50,501 [16   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:18:50,536 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:18:50,536 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:18:50,652 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:18:50,654 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:18:50,667 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:18:50,717 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:18:50,721 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:18:50,734 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:18:50,736 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:18:50,799 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:18:50,803 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:18:51,047 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:18:51,051 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:18:51,055 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:18:51,059 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:18:51,063 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:19:05,210 [33   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: e36cd35b-958b-4b5b-918c-779c46555348
+DEBUG 2016-07-19 22:19:07,764 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"3438a214-535f-4d1f-912c-6ab6c400eb20","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:19:07.7419683+08:00","Properties":{}}
+DEBUG 2016-07-19 22:19:07,938 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 3438a214-535f-4d1f-912c-6ab6c400eb20
+DEBUG 2016-07-19 22:22:16,610 [12   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:22:16,613 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:22:16,614 [12   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:22:16,614 [12   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:22:28,776 [16   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:22:28,798 [16   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:22:28,807 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,811 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,811 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,811 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,811 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,812 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,812 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,812 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,813 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,814 [16   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:28,818 [16   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:22:29,095 [16   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:22:29,095 [16   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:22:29,095 [16   ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:22:29,095 [16   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:22:29,711 [16   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:22:32,072 [16   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:22:32,081 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:22:32,088 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:22:32,091 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:22:32,093 [16   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:22:32,245 [16   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:22:32,282 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:22:32,282 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:22:32,387 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:22:32,389 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:22:32,399 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:22:32,442 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:22:32,445 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:22:32,453 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:22:32,456 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:22:32,472 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:22:32,474 [16   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:22:32,624 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:22:32,626 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:22:32,628 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:22:32,630 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:22:32,632 [16   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:22:51,899 [12   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 3438a214-535f-4d1f-912c-6ab6c400eb20
+DEBUG 2016-07-19 22:22:55,770 [17   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f5971bd3-3f7d-477b-927f-5b675c339c91","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:22:55.7461758+08:00","Properties":{}}
+DEBUG 2016-07-19 22:22:55,969 [31   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f5971bd3-3f7d-477b-927f-5b675c339c91
+DEBUG 2016-07-19 22:24:02,342 [23   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:24:02,344 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:24:02,345 [23   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:24:02,345 [23   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:24:13,980 [15   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:24:14,003 [15   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:24:14,012 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,015 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,016 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,016 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,016 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,017 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,017 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,017 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,018 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,018 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,018 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,018 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,018 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,019 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,019 [15   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:14,024 [15   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:24:14,183 [15   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:24:14,183 [15   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:24:14,183 [15   ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:24:14,183 [15   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:24:14,817 [15   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:24:16,511 [15   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:24:16,522 [15   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:24:16,525 [15   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:24:16,527 [15   ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:24:16,529 [15   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:24:16,661 [15   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:24:16,696 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:24:16,696 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:24:16,802 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:24:16,804 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:24:16,813 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:24:16,852 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:24:16,854 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:24:16,862 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:24:16,863 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:24:16,876 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:24:16,878 [15   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:24:17,024 [15   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:24:17,026 [15   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:24:17,028 [15   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:24:17,030 [15   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:24:17,032 [15   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:24:30,335 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: f5971bd3-3f7d-477b-927f-5b675c339c91
+DEBUG 2016-07-19 22:24:33,176 [28   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"61ac04d0-d669-46ad-9abf-4d5541a4bb75","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:24:33.1509981+08:00","Properties":{}}
+DEBUG 2016-07-19 22:24:33,360 [32   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 61ac04d0-d669-46ad-9abf-4d5541a4bb75
+DEBUG 2016-07-19 22:35:30,916 [55   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:35:30,917 [55   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:35:30,920 [55   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:35:30,920 [55   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:35:35,042 [19   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:35:35,911 [19   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:35:35,922 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,926 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,926 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,926 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,927 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,927 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,928 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,928 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,928 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,929 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,929 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,929 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,929 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,929 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,930 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:35,935 [19   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:35:36,793 [19   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:35:36,793 [19   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:35:36,793 [19   ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:35:36,793 [19   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:35:37,649 [19   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:35:38,816 [19   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:35:38,827 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:35:38,830 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:35:38,833 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:35:38,834 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:35:38,970 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:35:39,004 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:35:39,004 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:35:39,203 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:35:39,206 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:35:39,215 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:35:39,255 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:35:39,257 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:35:39,264 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:35:39,266 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:35:39,277 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:35:39,279 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:35:39,426 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:35:39,428 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:35:39,430 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:35:39,432 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:35:39,435 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:36:15,474 [61   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:36:15,476 [61   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:36:15,478 [61   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:36:15,478 [61   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:36:19,094 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:36:20,051 [1    ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:36:20,060 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,061 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,062 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,063 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,064 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,065 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:20,070 [1    ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:36:20,869 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:36:20,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:36:20,869 [1    ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:36:20,869 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:36:21,859 [1    ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:36:22,750 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:36:22,753 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:36:22,755 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:36:22,758 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:36:22,759 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:36:22,875 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:36:22,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:36:22,907 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:36:23,080 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:36:23,082 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:36:23,091 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:36:23,114 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:36:23,116 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:36:23,127 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:36:23,130 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:36:23,142 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:36:23,145 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:36:23,266 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:36:23,268 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:36:23,270 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:36:23,272 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:36:23,274 [1    ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:49:04,904 [37   ] Abp.Modules.AbpModuleManager             - Shutting down has been started
+DEBUG 2016-07-19 22:49:04,904 [37   ] Abp.BackgroundJobs.BackgroundJobManager  - Stop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:49:04,904 [37   ] Abp.BackgroundJobs.BackgroundJobManager  - WaitToStop background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:49:04,904 [37   ] Abp.Modules.AbpModuleManager             - Shutting down completed.
+DEBUG 2016-07-19 22:49:18,904 [19   ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2016-07-19 22:49:18,958 [19   ] Abp.Modules.AbpModuleManager             - Found 15 ABP modules in total.
+DEBUG 2016-07-19 22:49:18,968 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Web.XXProjectWebModule, QrF.XXProject.Web, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,985 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectDataModule, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,985 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFramework.AbpZeroEntityFrameworkModule, Abp.Zero.EntityFramework, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,985 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.Zero, Version=0.10.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,986 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,986 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkModule, Abp.EntityFramework, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectCoreModule, QrF.XXProject.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.XXProjectApplicationModule, QrF.XXProject.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: QrF.XXProject.Api.XXProjectWebApiModule, QrF.XXProject.WebApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.WebApi.AbpWebApiModule, Abp.Web.Api, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,987 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebModule, Abp.Web, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,988 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,988 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.SignalR.AbpWebSignalRModule, Abp.Web.SignalR, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,988 [19   ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.Mvc.AbpWebMvcModule, Abp.Web.Mvc, Version=0.10.0.1, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:18,994 [19   ] Abp.Modules.AbpModuleManager             - 15 modules loaded.
+DEBUG 2016-07-19 22:49:19,336 [19   ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:49:19,336 [19   ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:49:19,336 [19   ] o.Configuration.LanguageManagementConfig - Converted XXProject (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:49:19,336 [19   ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2016-07-19 22:49:19,969 [19   ] EntityFramework.AbpEntityFrameworkModule - Registering DbContext: QrF.XXProject.EntityFramework.XXProjectDbContext, QrF.XXProject.EntityFramework, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2016-07-19 22:49:21,994 [19   ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2016-07-19 22:49:22,017 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2016-07-19 22:49:22,020 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2016-07-19 22:49:22,024 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: XXProject
+DEBUG 2016-07-19 22:49:22,044 [19   ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2016-07-19 22:49:22,165 [19   ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2016-07-19 22:49:22,198 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - Found 10 classes defines auto mapping attributes
+DEBUG 2016-07-19 22:49:22,199 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Web.Models.Account.TenantSelectionViewModel+TenantInfo
+DEBUG 2016-07-19 22:49:22,298 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2016-07-19 22:49:22,300 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Sessions.Dto.UserLoginInfoDto
+DEBUG 2016-07-19 22:49:22,310 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.CreateUserInput
+DEBUG 2016-07-19 22:49:22,351 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Users.Dto.UserListDto
+DEBUG 2016-07-19 22:49:22,353 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2016-07-19 22:49:22,359 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.MultiTenancy.Dto.TenantListDto
+DEBUG 2016-07-19 22:49:22,361 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventDetailOutput
+DEBUG 2016-07-19 22:49:22,370 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventListDto
+DEBUG 2016-07-19 22:49:22,373 [19   ] Abp.AutoMapper.AbpAutoMapperModule       - QrF.XXProject.Events.Dto.EventRegistrationDto
+DEBUG 2016-07-19 22:49:22,551 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Sessions.ISessionAppService' with service name 'app/session'.
+DEBUG 2016-07-19 22:49:22,554 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Users.IUserAppService' with service name 'app/user'.
+DEBUG 2016-07-19 22:49:22,556 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Roles.IRoleAppService' with service name 'app/role'.
+DEBUG 2016-07-19 22:49:22,558 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.MultiTenancy.ITenantAppService' with service name 'app/tenant'.
+DEBUG 2016-07-19 22:49:22,560 [19   ] Abp.Logging.LogHelper                    - Dynamic web api controller is created for type 'QrF.XXProject.Events.IEventAppService' with service name 'app/event'.
+DEBUG 2016-07-19 22:50:28,965 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 61ac04d0-d669-46ad-9abf-4d5541a4bb75
+DEBUG 2016-07-19 22:50:32,525 [72   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"7fc80e0b-ebe0-452e-b978-97b0cd3402bd","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:50:32.5101405+08:00","Properties":{}}
+DEBUG 2016-07-19 22:50:32,592 [18   ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: 7fc80e0b-ebe0-452e-b978-97b0cd3402bd
+DEBUG 2016-07-19 22:50:39,014 [8    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is disconnected: 7fc80e0b-ebe0-452e-b978-97b0cd3402bd
+DEBUG 2016-07-19 22:50:40,814 [7    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is connected: {"ConnectionId":"f1a9cf0a-1703-49bd-aa5d-812f1426934a","IpAddress":"::1","TenantId":1,"UserId":2,"ConnectTime":"2016-07-19T22:50:40.8120823+08:00","Properties":{}}
+DEBUG 2016-07-19 22:50:40,841 [6    ] Abp.Web.SignalR.Hubs.AbpCommonHub        - A client is registered: f1a9cf0a-1703-49bd-aa5d-812f1426934a

@@ -61,6 +61,14 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\packages\Castle.Windsor.3.3.0\lib\net45\Castle.Windsor.dll</HintPath>
     </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.AspNet.Identity.Core, Version=2.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.Identity.Core.2.2.1\lib\net45\Microsoft.AspNet.Identity.Core.dll</HintPath>
       <Private>True</Private>
@@ -99,6 +107,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Events\Dto\CreateEventInput.cs" />
+    <Compile Include="Events\Dto\EventDetailOutput.cs" />
+    <Compile Include="Events\Dto\EventListDto.cs" />
+    <Compile Include="Events\Dto\EventRegisterOutput.cs" />
+    <Compile Include="Events\Dto\EventRegistrationDto.cs" />
+    <Compile Include="Events\Dto\GetEventListInput.cs" />
+    <Compile Include="Events\EventAppService.cs" />
     <Compile Include="Events\IEventAppService.cs" />
     <Compile Include="XXProjectApplicationModule.cs" />
     <Compile Include="XXProjectAppServiceBase.cs" />

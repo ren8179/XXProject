@@ -160,6 +160,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\TestDataBuilder.cs" />
+    <Compile Include="Events\EventAppService_Tests.cs" />
     <Compile Include="XXProjectTestModule.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sessions\SessionAppService_Tests.cs" />

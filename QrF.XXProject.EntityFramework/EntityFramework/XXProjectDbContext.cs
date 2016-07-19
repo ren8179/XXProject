@@ -3,12 +3,16 @@ using Abp.Zero.EntityFramework;
 using QrF.XXProject.Authorization.Roles;
 using QrF.XXProject.MultiTenancy;
 using QrF.XXProject.Users;
+using QrF.XXProject.Events;
+using System.Data.Entity;
 
 namespace QrF.XXProject.EntityFramework
 {
     public class XXProjectDbContext : AbpZeroDbContext<Tenant, Role, User>
     {
         //TODO: Define an IDbSet for your Entities...
+        public virtual IDbSet<Event> Events { get; set; }
+        public virtual IDbSet<EventRegistration> EventRegistrations { get; set; }
 
         /* NOTE: 
          *   Setting "Default" to base class helps us when working migration commands on Package Manager Console.

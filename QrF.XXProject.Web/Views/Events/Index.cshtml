@@ -1,0 +1,74 @@
+﻿@using QrF.XXProject.Events
+@using Abp.Web.Mvc.Extensions
+@model Abp.Application.Services.Dto.ListResultOutput<QrF.XXProject.Events.Dto.EventListDto>
+@{
+    ViewBag.ActiveMenu = "Events"; //The menu item will be active for this page.
+}
+@section scripts
+{
+    @Html.IncludeScript("~/Views/Events/Index.js")
+}
+<div>
+    <h1>@L("Events")</h1>
+    <div class="row">
+        <div class="col-md-12">
+            <button data-toggle="modal" data-target="#EventCreateModal" class="btn btn-primary pull-right"><i class="fa fa-plus"></i> @L("NewEvent")</button>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@L("Title")</th>
+                        <th>@L("Description")</th>
+                        <th>@L("IsCancelled")</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var evt in Model.Items)
+                    {
+                        <tr>
+                            <td>@evt.Title</td>
+                            <td>@evt.Description</td>
+                            <td>@L(evt.IsCancelled ? "Yes" : "No")</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="EventCreateModal" tabindex="-1" role="dialog" aria-labelledby="EventCreateModalLabel" data-backdrop="static">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <form name="eventCreateForm" role="form" novalidate class="form-validation">
+                <div class="modal-header">
+                    <h4 class="modal-title">
+                        <span>@L("NewEvent")</span>
+                    </h4>
+                </div>
+                <div class="modal-body">
+
+                    <div class="form-group">
+                        <label>@L("Title")</label>
+                        <input class="form-control" type="text" name="Title" required maxlength="@Event.MaxTitleLength" minlength="2">
+                    </div>
+
+                    <div class="form-group">
+                        <label>@L("Description")</label>
+                        <input type="text" name="Description" class="form-control" required maxlength="@Event.MaxDescriptionLength">
+                    </div>
+
+                    <div class="checkbox">
+                        <label>
+                            <input type="checkbox" name="IsCancelled" value="true" checked="checked"> @L("IsCancelled")
+                        </label>
+                    </div>
+
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">@L("Cancel")</button>
+                    <button type="submit" class="btn btn-primary blue"><i class="fa fa-save"></i> <span>@L("Save")</span></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

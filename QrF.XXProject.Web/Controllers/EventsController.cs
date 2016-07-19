@@ -3,22 +3,25 @@ using System.Web.Mvc;
 using Abp.Web.Mvc.Authorization;
 using QrF.XXProject.Authorization;
 using QrF.XXProject.Users;
+using QrF.XXProject.Events;
+using QrF.XXProject.Events.Dto;
 
 namespace QrF.XXProject.Web.Controllers
 {
     [AbpMvcAuthorize(PermissionNames.Pages_Users)]
     public class EventsController : XXProjectControllerBase
     {
-        private readonly IUserAppService _userAppService;
+        private readonly IEventAppService _eventAppService;
 
-        public EventsController(IUserAppService userAppService)
+        public EventsController(IEventAppService userAppService)
         {
-            _userAppService = userAppService;
+            _eventAppService = userAppService;
         }
 
         public async Task<ActionResult> Index()
         {
-            var output = await _userAppService.GetUsers();
+            var input = new GetEventListInput() { IncludeCanceledEvents=false };
+            var output = await _eventAppService.GetList(input);
             return View(output);
         }
     }
