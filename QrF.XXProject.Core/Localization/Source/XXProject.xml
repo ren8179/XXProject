@@ -32,6 +32,10 @@
     <text name="Title" value="Title" />
     <text name="Description" value="Description" />
     <text name="IsCancelled" value="Is cancelled" />
+    <text name="Date" value="Date" />
+    <text name="RegistrationsCount" value="Registrations Count" />
+    <text name="MaxRegistrationCount" value="Max registration count" />
+    <text name="EventDatePast" value="Can not set an event's date in the past!" />
     
     <text name="ShowCanceledEvents" value="Show canceled events" />
     <text name="ThisEventIsCanceled" value="This event is canceled" />

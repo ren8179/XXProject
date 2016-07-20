@@ -37,6 +37,9 @@
     <text name="Title" value="标题" />
     <text name="Description" value="描述" />
     <text name="IsCancelled" value="是否已失效" />
+    <text name="Date" value="日期" />
+    <text name="RegistrationsCount" value="注册人数" />
+    <text name="MaxRegistrationCount" value="注册人数上限" />
 
     <text name="ShowCanceledEvents" value="显示已关闭活动" />
     <text name="ThisEventIsCanceled" value="该活动已关闭" />

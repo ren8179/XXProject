@@ -1,7 +1,7 @@
 ﻿(function() {
     $(function() {
 
-        var _userService = abp.services.app.event;
+        var _eventService = abp.services.app.event;
         var _$modal = $('#EventCreateModal');
         var _$form = _$modal.find('form');
 
@@ -14,10 +14,10 @@
                 return;
             }
 
-            var user = _$form.serializeFormToObject(); //serializeFormToObject is defined in main.js
+            var event = _$form.serializeFormToObject(); //serializeFormToObject is defined in main.js
             
             abp.ui.setBusy(_$modal);
-            _userService.createUser(user).done(function () {
+            _eventService.create(event).done(function () {
                 _$modal.modal('hide');
                 location.reload(true); //reload page to see new user!
             }).always(function () {

@@ -18,6 +18,9 @@
                     <tr>
                         <th>@L("Title")</th>
                         <th>@L("Description")</th>
+                        <th>@L("Date")</th>
+                        <th>@L("RegistrationsCount")</th>
+                        <th>@L("MaxRegistrationCount")</th>
                         <th>@L("IsCancelled")</th>
                     </tr>
                 </thead>
@@ -27,6 +30,9 @@
                         <tr>
                             <td>@evt.Title</td>
                             <td>@evt.Description</td>
+                            <td>@evt.Date</td>
+                            <td>@evt.RegistrationsCount</td>
+                            <td>@evt.MaxRegistrationCount</td>
                             <td>@L(evt.IsCancelled ? "Yes" : "No")</td>
                         </tr>
                     }
@@ -55,6 +61,16 @@
                     <div class="form-group">
                         <label>@L("Description")</label>
                         <input type="text" name="Description" class="form-control" required maxlength="@Event.MaxDescriptionLength">
+                    </div>
+
+                    <div class="form-group">
+                        <label>@L("Date")</label>
+                        <input type="datetime-local" name="Date" class="form-control" required >
+                    </div>
+
+                    <div class="form-group">
+                        <label>@L("MaxRegistrationCount")</label>
+                        <input type="number" name="MaxRegistrationCount" class="form-control">
                     </div>
 
                     <div class="checkbox">
